@@ -21,7 +21,5 @@ public class Histogram <T>{
             histogram.put(value, histogram.containsKey(value) ? histogram.get(value)+1 : 1);
         }
         return histogram;
-    }
-    
-    
+    }   
 }
